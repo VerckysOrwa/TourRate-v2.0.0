@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first{
+    background: url("../images/angama-mara-kenya-p.webp");
+    background-repeat: no-repeat;
+    height:100vh;
+    background-size: cover;
+    animation: image-change 15s infinite;
+}
+
+
+#main{
+    height: 95vh;
+    overflow:scroll;
+}
+
+
+@keyframes image-change{
+    0%{
+    background: url("../images/angama-mara-kenya-p.webp");
+    background-repeat: no-repeat;
+    height:100vh;
+background-size: cover;
+    }
+    100%{
+            background: url("../images/elsas-kopje-lodge-p.webp");
+background-repeat: no-repeat;
+    height:100vh;
+background-size: cover;
+    }
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
