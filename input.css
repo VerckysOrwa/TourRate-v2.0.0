@@ -10,7 +10,7 @@
 .first{
     background: url("../images/angama-mara-kenya-p.webp");
     background-repeat: no-repeat;
-    height:100vh;
+    height:85vh;
     background-size: cover;
     animation: image-change 15s infinite;
 }
@@ -36,9 +36,7 @@ background-repeat: no-repeat;
 background-size: cover;
     }
 }
-nav>a{
-    visibility: hidden;
-}
+
 
 ::-webkit-scrollbar{
     display: none;
