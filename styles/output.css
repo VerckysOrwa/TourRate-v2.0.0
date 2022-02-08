@@ -468,6 +468,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.visible {
+  visibility: visible;
+}
+
 .relative {
   position: relative;
 }
@@ -716,6 +720,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     height:100vh;
     background-size: cover;
   }
+}
+
+nav>a{
+  visibility: hidden;
 }
 
 ::-webkit-scrollbar{

@@ -36,7 +36,9 @@ background-repeat: no-repeat;
 background-size: cover;
     }
 }
-
+nav>a{
+    visibility: hidden;
+}
 
 ::-webkit-scrollbar{
     display: none;
